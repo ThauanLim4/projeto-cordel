@@ -1,60 +1,95 @@
 @import url('https://fonts.googleapis.com/css2? family= Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200; 1.300;1.400;1.500;1.600;1.700;1.800;1.900 & família= Kalam:wght@300 & família= Compartilhar+Tecnologia & exibição=trocar');
 
 :root {
---cor1: #F0AB35;
---cor2: #BD872A;
---cor3: #F2C87E;
---cor4: #705C3A;
---cor5: #705019;
+    --cor1: #F0AB35;
+    --cor2: #BD872A;
+    --cor3: #F2C87E;
+    --cor4: #705C3A;
+    --cor5: #705019;
 }
+
 h2 {
-font-size: 8vh;
+    font-size: 8vh;
 }
+
 * {
-padding: 0;
-margin: 0;
+    padding: 0;
+    margin: 0;
 }
+
 .normal {
-background-image: linear-gradient(to right, #F0AB35, #f1ba5b);
+    background-image: linear-gradient(to right, #F0AB35, #f1ba5b);
 }
-html, body {
-min-height: 100vh;
+
+html,
+body {
+    min-height: 100vh;
 }
+
 header {
-background-color: #705019;
-text-align: center;
-color: white;
-font-variant: small-caps;
-padding: 20px 0;
+    background-color: #705019;
+    text-align: center;
+    color: white;
+    font-variant: small-caps;
+    padding: 20px 0;
 }
+
 section {
-padding: 10vh 0;
-line-height: 2em;
+    padding: 10vh 0;
+    line-height: 2em;
 }
+
 footer {
-text-align: center;
-color: white;
-font-variant: small-caps;
-background-color: #705019;
-padding: 20px 0;
+    text-align: center;
+    color: white;
+    font-variant: small-caps;
+    background-color: #705019;
+    padding: 20px 0;
 }
+
 p {
-margin-left: 2em;
-font-family: 'Kalam', cursive;
-font-size: 1.5em;
+    margin-left: 2em;
+    font-family: 'Kalam', cursive;
+    font-size: 1.5em;
 }
+
 a {
-text-decoration: none;
-color: #f1ba5b;
+    text-decoration: none;
+    color: #f1ba5b;
 }
-.imagem {
-background-color: #7050198a;
-width: 400px;
-border-radius: 0 10px;
+
+a:hover {
+    background-color: #F0AB35;
+    color: white;
+    transition: ease-in-out 500ms;
+}
+
+section#img1 {
+    background-image: url(imagens/background001.jpg);
+    background-position: center center;
+    box-shadow: inset 6px 6px 15px black;
+    background-attachment: fixed;
+}
+
+section#img2 {
+    background-image: url(imagens/background002.jpg);
+    background-position: center center;
+    box-shadow: inset 6px 6px 15px black;
+    background-attachment: fixed;
 
 }
-a:hover {
-background-color: #F0AB35;
-color: white;
-transition: ease-in-out 500ms;
+
+section#img3 {
+    background-image: url(imagens/pexels-jeff-wang-462402.jpg);
+    background-position: center center;
+    box-shadow: inset 6px 6px 15px black;
+    background-attachment: fixed;
+
+}
+
+.pcomtagimagem {
+    color: white;
+    background-color: #7050198c;
+    padding: 0px 10px;
+    width: 300px;
 }
