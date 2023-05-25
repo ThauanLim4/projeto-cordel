@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2? family= Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200; 1.300;1.400;1.500;1.600;1.700;1.800;1.900 & família= Kalam:wght@300 & família= Compartilhar+Tecnologia & exibição=trocar');
+
 :root {
 --cor1: #F0AB35;
 --cor2: #BD872A;
 --cor3: #F2C87E;
 --cor4: #705C3A;
 --cor5: #705019;
+}
+h2 {
+font-size: 8vh;
 }
 * {
 padding: 0;
@@ -35,6 +40,8 @@ padding: 20px 0;
 }
 p {
 margin-left: 2em;
+font-family: 'Kalam', cursive;
+font-size: 1.5em;
 }
 a {
 text-decoration: none;
@@ -42,7 +49,7 @@ color: #f1ba5b;
 }
 .imagem {
 background-color: #7050198a;
-width: 300px;
+width: 400px;
 border-radius: 0 10px;
 
 }
